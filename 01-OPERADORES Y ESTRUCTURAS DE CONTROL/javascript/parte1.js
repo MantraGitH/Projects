@@ -10,6 +10,8 @@ console.log(8 - 4); // el resultado de la resta es 4
 console.log(2 * 3); // el resultado de la multiplicación es 6
 console.log(16 / 2); // el resultado de la división es 8
 
+console.log("----------------------------------------------------------");
+
 // --------------------------------------------------------------------------------------
 
 //Operadores Lógicos: Se utilizan para combinar expresiones booleanas y devolver un valor booleano.
@@ -31,6 +33,8 @@ console.log(false || false); // false
 // OPERADOR LÓGICO !
 
 console.log(!true); // false
+
+console.log("----------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------
 
@@ -66,6 +70,8 @@ console.log(5 >= 5); // true
 console.log(5 < 10); // true
 console.log(5 <= 5); // true
 
+console.log("----------------------------------------------------------");
+
 //--------------------------------------------------------------------------------------
 
 // Operadores de Asignación: son utilizados para asignar valores a variables. Estos operadores combinan la operación de asignación (=) con otra operación matemática o de manipulación de datos.
@@ -97,6 +103,8 @@ d *= 2; // Equivalente a: d = d * 2
 let e = 20;
 e /= 4; // Equivalente a: e = e / 4
 // ahora e es 5
+
+console.log("----------------------------------------------------------");
 
 //----------------------------------------------
 

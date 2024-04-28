@@ -15,6 +15,8 @@ if (edad >= 18) {
     console.log("Eres menor de edad");
 }
 
+console.log("----------------------------------------------------------");
+
 //switch-case:
 
 let dia = 3;
@@ -32,6 +34,8 @@ switch (dia) {
         console.log("Otro día");
 }
 
+console.log("----------------------------------------------------------");
+
 // Estructuras Iterativas:
 
 //for
@@ -48,18 +52,22 @@ while (x < 5) {
     x++;
 }
 
-//excepciones
+console.log("----------------------------------------------------------");
+
+//Estructuras de Excepciones
 
 //try-catch
 
 try {
-    // Intenta ejecutar este código
+    // Se intenta ejecutar este código
     let resultado = 10 / 0;
     console.log("El resultado es: " + resultado);
 } catch (error) {
-    // Si hay un error, captúralo y ejecuta este bloque
+    // Si hay un error, se captura y ejecuta en este bloque
     console.log("Error:", error);
 }
+
+console.log("----------------------------------------------------------");
 
 //throw
 
