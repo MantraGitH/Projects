@@ -62,7 +62,7 @@ console.log("Se borrará el ultimo numero (6)", numeros);
 //Actualización: Encuentra la posición de "5"
 let indiceNumero = numeros.indexOf(5);
 
-// Si "Naranja" existe en el array, se elimina
+// Si "5" existe en el array, se elimina
 if (indiceNumero !== -1) {
   numeros.splice(indiceNumero, 1);
 }
