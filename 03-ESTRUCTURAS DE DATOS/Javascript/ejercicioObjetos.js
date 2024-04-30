@@ -19,13 +19,28 @@ let persona = {
   ciudad: "Minas",
 };
 
-// Acceder a propiedades del objeto
-console.log(persona.nombre);
-console.log(persona.edad);
-console.log(persona.ciudad);
+//Inserción de propiedad
 
-// Modificar una propiedad del objeto
+persona.lenguaje = "Javascript";
+console.log(persona);
+
+//Eliminacion de propiedad
+
+delete persona.lenguaje;
+console.log(persona);
+
+// Actualizacion de las propiedades de un objeto
 persona.nombre = "Ernesto";
 persona.edad = 24;
 persona.ciudad = "Montevideo";
+console.log(persona);
+
+// // Acceder a propiedades del objeto
+// console.log(persona.nombre);
+// console.log(persona.edad);
+// console.log(persona.ciudad);
+
+// Ordenación de las propiedades
+let { edad, nombre, ciudad } = persona;
+persona = { edad, nombre, ciudad };
 console.log(persona);
