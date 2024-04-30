@@ -1,5 +1,15 @@
-/* Muestra ejemplos de creación de todas las estructuras soportadas por defecto en tu lenguaje. 
-Utiliza operaciones de inserción, borrado, actualización y ordenación. */
+/* 
+EJERCICIO:
+-Muestra ejemplos de creación de todas las estructuras soportadas por defecto en tu lenguaje. 
+-Utiliza operaciones de inserción, borrado, actualización y ordenación.
+*/
+
+/* 
+Arrays definición:
+Son colecciones ordenadas de elementos, donde cada elemento puede ser de cualquier tipo de datos,
+incluyendo números, cadenas, objetos, etc.
+Los arrays en JavaScript son dinámicos, lo que significa que su tamaño puede cambiar dinámicamente.
+*/
 
 // Array tipo string
 let frutas = ["Manzana", "Banana", "Naranja"];
@@ -76,10 +86,10 @@ let indiceUno = numeros.indexOf(1);
 
 // Si ambos elementos existen en el array, se reorganiza el orden
 if (indiceDos !== -1 && indiceUno !== -1) {
-    // Elimina "1" del array
-    numeros.splice(indiceUno, 1);
-    // Inserta "1" antes que "2"
-    numeros.splice(indiceDos, 0, 1);
-  }
+  // Elimina "1" del array
+  numeros.splice(indiceUno, 1);
+  // Inserta "1" antes que "2"
+  numeros.splice(indiceDos, 0, 1);
+}
 
 console.log("Se cambió el orden de números", numeros);
