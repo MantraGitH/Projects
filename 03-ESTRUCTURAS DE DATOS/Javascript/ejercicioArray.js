@@ -67,3 +67,19 @@ if (indiceNumero !== -1) {
   numeros.splice(indiceNumero, 1);
 }
 console.log("aparte del numero 6, también se borrará el numero 5", numeros);
+
+//Ordenación:
+
+// Encuentra las posiciones de "2" y "1"
+let indiceDos = numeros.indexOf(2);
+let indiceUno = numeros.indexOf(1);
+
+// Si ambos elementos existen en el array, se reorganiza el orden
+if (indiceDos !== -1 && indiceUno !== -1) {
+    // Elimina "1" del array
+    numeros.splice(indiceUno, 1);
+    // Inserta "1" antes que "2"
+    numeros.splice(indiceDos, 0, 1);
+  }
+
+console.log("Se cambió el orden de números", numeros);
