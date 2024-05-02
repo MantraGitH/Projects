@@ -93,3 +93,11 @@ if (indiceDos !== -1 && indiceUno !== -1) {
 }
 
 console.log("Se cambió el orden de números", numeros);
+
+// ordenación descendente
+numeros.sort((a, b) => b - a);
+console.log(numeros)
+
+//ordenación ascendente
+numeros.sort((a, b) => a - b);
+console.log(numeros)
