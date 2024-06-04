@@ -3,7 +3,3 @@ Ruta de estudio con ejercicios para mejorar la lógica de programación y aprend
 Link GitHub: https://github.com/mouredev/roadmap-retos-programacion
 
 Link WEB: https://retosdeprogramacion.com/roadmap
-
-Lenguajes integrados en la ruta de estudio:
-
--Javascript
