@@ -6,6 +6,3 @@ Link GitHub: https://github.com/mouredev/roadmap-retos-programacion
 
 Link WEB: https://retosdeprogramacion.com/roadmap
 
-
-Documentación asociada:
-https://javascript.info/

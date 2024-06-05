@@ -11,9 +11,6 @@ Cuando se dice que Node.js está orientado a eventos, se refiere a que el sistem
 
 Node.js y Google Chrome comparten el mismo motor de ejecución, que es el motor V8. V8 es un motor de JavaScript de alto rendimiento desarrollado por Google para el navegador Chrome. Fue diseñado para compilar código JavaScript a código máquina nativo, mejorando así la velocidad y eficiencia de la ejecución.
 
-
-Documentación asociada:
-
 -----------------------------------------------------------------------------------------------------------------------------
 
 Objective: Understand the importance of using Node.js, what it is, and why it is necessary for creating applications, APIs, and services.
@@ -31,4 +28,14 @@ When it is said that Node.js is event-driven, it means that the system is design
 Node.js and Google Chrome share the same execution engine, which is the V8 engine. V8 is a high-performance JavaScript engine developed by Google for the Chrome browser. It was designed to compile JavaScript code to native machine code, thereby improving execution speed and efficiency.
 
 
-Related documentation:
+Documentación asociada/Related documentation:
+
+https://nodejs.org/en
+
+https://developer.mozilla.org/es/docs/Learn/Server-side/Express_Nodejs
+
+https://www.w3schools.com/nodejs/default.asp
+
+https://www.tutorialspoint.com/nodejs/index.htm
+
+https://www.geeksforgeeks.org/nodejs/?ref=home-articlecards
