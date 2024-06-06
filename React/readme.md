@@ -1,11 +1,18 @@
-Material de estudio asociado con el creador de contenido MiduDev//Study material associated with the content creator MiduDev.
+Documentación usada//Used Documentation:
 
-Github Link: https://github.com/midudev/aprendiendo-react
+https://react.dev/
 
-Documentación asociada//Related documentation:
+
+https://www.w3schools.com/REACT/DEFAULT.ASP
+
 
 https://cursoreact.dev/
 
-https://es.react.dev/
 
 https://www.reactjs.wiki/
+
+
+https://github.com/midudev/aprendiendo-react
+
+
+https://stackoverflow.com/questions/tagged/reactjs
