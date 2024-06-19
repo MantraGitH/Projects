@@ -3,6 +3,6 @@ function sum (a, b) {
   }
   
   // CommonJS Module Export
-  module.exports = {
+  export default {
     sum
   }
