@@ -5,7 +5,7 @@ import fs from "node:fs/promises"; // => /promises
 // Esto sólo en los módulos nativos
 // que no tienen promesas nativas
 
-// const { promisify } = require("node:util")
+// const { promisify } from "node:util"
 // const readFilePromise = promisify(fs.readFile)
 
 //en lugar de utilizar callbacks se utilizan promises (.then)
