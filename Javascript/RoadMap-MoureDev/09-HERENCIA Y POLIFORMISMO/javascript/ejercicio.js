@@ -3,49 +3,35 @@
  * implemente una superclase Animal y un par de subclases Perro y Gato,
  * junto con una función que sirva para imprimir el sonido que emite cada Animal. */
 
-// Superclase Animal
 class Animal {
-  constructor(nombre) {
-    this.nombre = nombre;
+  constructor(name) {
+    this.name = name;
   }
 
-  emitirSonido() {
-    // Método que será sobrescrito por las subclases
-    console.log(`${this.nombre} emite un sonido.`);
-  }
-}
-
-// Subclase Perro
-class Perro extends Animal {
-  constructor(nombre) {
-    super(nombre); // Llama al constructor de la superclase
-  }
-
-  emitirSonido() {
-    console.log(`${this.nombre} dice: Guau`);
+  sound() {
+    // Método abstracto
   }
 }
 
-// Subclase Gato
-class Gato extends Animal {
-  constructor(nombre) {
-    super(nombre); // Llama al constructor de la superclase
-  }
-
-  emitirSonido() {
-    console.log(`${this.nombre} dice: Miau`);
+class Dog extends Animal {
+  sound() {
+    console.log("Guau!");
   }
 }
 
-// Función para imprimir el sonido de un animal
-function imprimirSonido(animal) {
-  animal.emitirSonido();
+class Cat extends Animal {
+  sound() {
+    console.log("Miau!");
+  }
 }
 
-// Crear instancias de Perro y Gato
-let miPerro = new Perro("Coco");
-let miGato = new Gato("Tyrion");
+function emitirSonido(animal) {
+  animal.sound();
+}
 
-// Imprimir el sonido que emiten
-imprimirSonido(miPerro); // Coco dice: Guau
-imprimirSonido(miGato); // Tyrion dice: Miau
+let myAnimal = new Animal("Animal");
+emitirSonido(myAnimal); // No hará nada ya que el método sound() en Animal no está implementado
+let myDog = new Dog("Coco");
+emitirSonido(myDog);
+let myCat = new Cat("Tyrion");
+emitirSonido(myCat);
