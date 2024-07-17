@@ -16,7 +16,7 @@ class StrTypeError extends Error {
 }
 
 function processParams(parameters) {
-    //Comprueba si la longitud del array parameters es menor que 3
+  //Comprueba si la longitud del array parameters es menor que 3
   if (parameters.length < 3) {
     throw new Error("IndexError");
     // Comprueba si el segundo elemento del array parameters es 0
@@ -28,10 +28,10 @@ function processParams(parameters) {
       "El tercer elemento no puede ser una cadena de texto."
     );
   }
-//Si ninguna de las condiciones anteriores se cumple, ejecuta las siguientes instrucciones:
-//console.log(parameters[2]): Imprime el tercer elemento del array.
-//console.log(parameters[0] / parameters[1]): Imprime el resultado de dividir el primer elemento entre el segundo.
-//console.log(parameters[2] + 5): Intenta sumar 5 al tercer elemento y lo imprime.
+  //Si ninguna de las condiciones anteriores se cumple, ejecuta las siguientes instrucciones:
+  //console.log(parameters[2]): Imprime el tercer elemento del array.
+  //console.log(parameters[0] / parameters[1]): Imprime el resultado de dividir el primer elemento entre el segundo.
+  //console.log(parameters[2] + 5): Intenta sumar 5 al tercer elemento y lo imprime.
   console.log(parameters[2]);
   console.log(parameters[0] / parameters[1]);
   console.log(parameters[2] + 5);
