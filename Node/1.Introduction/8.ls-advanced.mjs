@@ -26,7 +26,7 @@ async function ls(folder) {
     try {
       stats = await stat(filePath); // status - información del archivo
     } catch {
-        //si hay un error 
+      //si hay un error
       console.error(`No se pudo leer el archivo ${filePath}`);
       process.exit(1);
     }
@@ -56,7 +56,7 @@ ls(folder);
 
 // f 1.os-info.mjs               484 8/6/2024, 3:05:45 p. m.
 //f 2.fs-stat.mjs               301 5/6/2024, 2:53:34 p. m.
-//f 3.fs-readFile-sync.mjs        507 19/6/2024, 1:02:45 p. m.       
+//f 3.fs-readFile-sync.mjs        507 19/6/2024, 1:02:45 p. m.
 //f 3.fs-readFile.mjs           541 19/6/2024, 1:02:48 p. m.
 //f 4.fs-async-await-parallel.mjs        429 19/6/2024, 4:49:37 p. m.
 //f 4.fs-async-await.js        1105 19/6/2024, 4:51:15 p. m.

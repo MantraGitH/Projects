@@ -1,0 +1,26 @@
+{
+  "name": "1.introduction",
+  "version": "1.0.0",
+  "description": "node intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MantraGitH/Projects.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Camilo Perdomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MantraGitH/Projects/issues"
+  },
+  "homepage": "https://github.com/MantraGitH/Projects#readme",
+  "dependencies": {
+    "picocolors": "1.0.1"
+  }
+}
