@@ -1,0 +1,9 @@
+
+<persona>
+  <nombre>undefined</nombre>
+  <edad>undefined</edad>
+  <fechaNacimiento>undefined</fechaNacimiento>
+  <lenguajesDeProgramacion>
+    <lenguaje>JavaScript</lenguaje>
+  </lenguajesDeProgramacion>
+</persona>
