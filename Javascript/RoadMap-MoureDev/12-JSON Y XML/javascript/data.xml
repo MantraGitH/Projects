@@ -1,8 +1,8 @@
 
 <persona>
-  <nombre>undefined</nombre>
-  <edad>undefined</edad>
-  <fechaNacimiento>undefined</fechaNacimiento>
+  <nombre>Camilo</nombre>
+  <edad>23</edad>
+  <fechaNacimiento>2001-03-10</fechaNacimiento>
   <lenguajesDeProgramacion>
     <lenguaje>JavaScript</lenguaje>
   </lenguajesDeProgramacion>

@@ -10,7 +10,7 @@
  * Borra los archivos.
  */
 
-// Ver Notas de cada punto del código en ApuntesJercicio.md
+// Ver información de los comentarios de cada punto del código en ApuntesEjercicio.md
 
 // Importamos el módulo fs y path:
 
@@ -34,9 +34,9 @@ console.log("JSON Creado");
 // Creamos el archivo .XML
 const xmlData = `
 <persona>
-  <nombre>${data.nombre}</nombre>
-  <edad>${data.edad}</edad>
-  <fechaNacimiento>${data.fechaNacimiento}</fechaNacimiento>
+  <nombre>${data.name}</nombre>
+  <edad>${data.age}</edad>
+  <fechaNacimiento>${data.date}</fechaNacimiento>
   <lenguajesDeProgramacion>
     ${data.lenguajesDeProgramacion
       .map((lang) => `<lenguaje>${lang}</lenguaje>`)
