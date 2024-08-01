@@ -1,4 +1,8 @@
-# Proyectos para estudiar y seguir aprendiendo Javascript, React y Node // Projects to Study and continue learning Javascript, React.js, and Node.js
+**Serie de proyectos para continuar aprendiendo Javascript, Node.Js y React.js**
+
+**Series of projects to continue learning JavaScript, Node.js, and React.js**
+
+---
 
 **[Javascript](https://github.com/MantraGitH/Projects/tree/main/Javascript)**
 
@@ -6,12 +10,12 @@
 
 ---
 
-**[Node](https://github.com/MantraGitH/Projects/tree/main/Node)**
+**[Node.js](https://github.com/MantraGitH/Projects/tree/main/Node)**
 
 -[Node Introduction](https://github.com/MantraGitH/Projects/tree/main/Node/1.Introduction)
 
 ---
 
-**[React](https://github.com/MantraGitH/Projects/tree/main/React)**
+**[React.js](https://github.com/MantraGitH/Projects/tree/main/React)**
 
 
