@@ -2,7 +2,7 @@
 
 **Series of projects to continue learning JavaScript, Node.js, and React.js**
 
----
+
 
 **[Javascript](https://github.com/MantraGitH/Projects/tree/main/Javascript)**
 
