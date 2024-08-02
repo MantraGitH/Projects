@@ -30,9 +30,13 @@ La función **test** toma dos argumentos: una descripción del test y una funci�
 
 **expect(suma(1, 2)).toBe(3);**: La función **expect** toma el resultado de **suma(1, 2)** y verifica que sea igual a 3 usando el matcher **toBe**.
 
+---
+
 **test('suma 5 + 6 para igualar 11', () => { ... });**: Este test verifica que **suma(5, 6)** es igual a 11.
 
 **expect(suma(5, 6)).toBe(11);**: La función expect toma el resultado de **suma(5, 6)** y verifica que sea igual a 11 usando el matcher **toBe**.
+
+---
 
 **test('suma números negativos -3 + (-2) para igualar -5', () => { ... });**: Este test verifica que **suma(-3, -2)** es igual a -5.
 
@@ -44,7 +48,7 @@ Para ejecutar los tests podemos utilizar el comando **npx jest**. Este comando e
 
 **Ejemplo de un test exitoso:**
 
-<!--  PASS  ./suma.test.js
+ PASS  ./suma.test.js
   √ suma 1 + 2 para igualar 3 (2 ms)
   √ suma 5 + 6 para igualar 11 (1 ms)
   √ suma números negativos -3 + (-2) para igualar -5
@@ -53,15 +57,15 @@ Test Suites: 1 passed, 1 total
 Tests:       3 passed, 3 total
 Snapshots:   0 total
 Time:        0.453 s
-Ran all test suites. -->
+Ran all test suites. 
 
 **Ejemplo de un fallo en un test:**
 
-<!--  FAIL  ./suma.test.js
+  FAIL  ./suma.test.js
   ● Test suite failed to run
 
     Jest encountered an unexpected token
 
     ...
 
-    -->
+
