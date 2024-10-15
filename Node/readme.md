@@ -26,16 +26,3 @@ When it is said that Node.js is event-driven, it means that the system is design
 
 
 Node.js and Google Chrome share the same execution engine, which is the V8 engine. V8 is a high-performance JavaScript engine developed by Google for the Chrome browser. It was designed to compile JavaScript code to native machine code, thereby improving execution speed and efficiency.
-
-
-Documentación usada//Used Documentation:
-
-https://nodejs.org/en
-
-https://developer.mozilla.org/es/docs/Learn/Server-side/Express_Nodejs
-
-https://www.w3schools.com/nodejs/default.asp
-
-https://www.tutorialspoint.com/nodejs/index.htm
-
-https://www.geeksforgeeks.org/nodejs/?ref=home-articlecards
