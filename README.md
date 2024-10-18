@@ -9,8 +9,7 @@
 
 ---
 
-**[Typescript]()**
-
+**[Typescript](https://github.com/MantraGitH/Projects-Index/tree/main/Typescript)**
 
 ---
 
