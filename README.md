@@ -11,6 +11,8 @@
 
 **[Typescript](https://github.com/MantraGitH/Projects-Index/tree/main/Typescript)**
 
+-[MoureDev Roadmap](https://github.com/MantraGitH/TS-Basics)
+
 ---
 
 **[Node.js](https://github.com/MantraGitH/Projects/tree/main/Node)**
